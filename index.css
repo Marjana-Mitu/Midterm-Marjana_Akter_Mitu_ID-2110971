@@ -1,3 +1,4 @@
+
 body {
     font-family: "Barlow Condensed", sans-serif;
     margin: 0;
@@ -22,4 +23,102 @@ header nav a {
 header nav a:hover {
     color: #4b290c;
     text-decoration: underline;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+
+
+.banner {
+    background: url(images/banner.jpg) no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+}
+
+.banner-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.banner-content .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.banner-content .btn:hover {
+    background-color: #555;
+}
+
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.feature {
+    max-width: 300px;
+    text-align: center;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #2c3e50;
+    margin: 10px 0;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #666;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
 }

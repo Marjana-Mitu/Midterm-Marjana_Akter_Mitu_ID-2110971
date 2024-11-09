@@ -28,7 +28,7 @@ header nav a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-grow: 4; /* Ensures the section takes up the remaining space */
+    flex-grow: 4; 
     padding: 20px;
 }
 
@@ -40,7 +40,7 @@ header nav a:hover {
     justify-content: center;
 }
 
-/* Product Grid */
+
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -50,7 +50,7 @@ header nav a:hover {
     max-width: 1000px;
 }
 
-/* Product Cards */
+
 .product-card {
     background: #fff;
     border-radius: 10px;
@@ -97,7 +97,7 @@ header nav a:hover {
     background-color: #555;
 }
 
-/* Hover Effect */
+
 img :hover {
     width: 200px;
 }
