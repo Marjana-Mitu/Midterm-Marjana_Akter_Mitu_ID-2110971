@@ -1,0 +1,25 @@
+body {
+    font-family: "Barlow Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #547895;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: 1rem 0;
+    font-weight: initial;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    color: #4b290c;
+    text-decoration: underline;
+}
